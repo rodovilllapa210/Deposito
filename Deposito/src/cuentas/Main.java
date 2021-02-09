@@ -15,6 +15,8 @@ public class Main {
 
         cuenta1 = operativa_cuenta(0);
 
+		System.out.print("Cambio efectuado por consola");
+		
         try {
             cuenta1.retirar(2300);
         } catch (Exception e) {
